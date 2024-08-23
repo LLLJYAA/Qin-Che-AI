@@ -25,6 +25,11 @@ Here's a simple and user-friendly `README.md` template that you can use to guide
       ```bash
       pip install openai
       ```
+   - 如果出现报错： 'pip' 不是内部或外部命令，也不是可运行的程序或批处理文件。
+     那么需要将 Python 添加到系统环境变量中：
+     右键点击桌面上的 “此电脑” 或 “计算机” 图标，然后选择 “属性”。
+     在弹出的窗口中，点击左侧的 “高级系统设置”。
+     在 “系统属性” 窗口中，点击 “环境变量” 按钮。
 
 ### 第二步：获取 OpenAI API 密钥
 
@@ -55,10 +60,7 @@ Here's a simple and user-friendly `README.md` template that you can use to guide
       ```
 
 3. **运行程序**:
-    - 打开命令提示符或终端，进入项目文件夹，运行以下命令：
-      ```bash
-      python test.py
-      ```
+    - 双击启动 test.py
     - 程序启动后，你将看到提示 `猎人小姐:`，你可以在这里输入你的问题或对话，秦彻将会回应你。
 
 ### 第四步：与秦彻互动
